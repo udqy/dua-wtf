@@ -2,8 +2,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
-    color: aliceblue;
     box-sizing: border-box;
+    color: rgb(253, 253, 97);
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -13,18 +14,63 @@ body {
 }
 
 img {
-    width: 90%  ;
+    width: 60%  ;
     height: auto;
-    margin-top: 10px;
+    margin-top: 42px;
 }
 
 .nav {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 15px;
 }
 
 .txt {
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    top: 200px;
+    margin: auto 16px;
+    gap: 30px;
+    width: 40%;
+    bottom: 5%;
+}
+
+.bbt {
+    font-weight: 800;
+    font-size: 25px;
+    text-shadow: 10px;
+    text-shadow: 3px 4px 7px rgba(255, 255, 0, 0.412);
+}
+
+a {
+    cursor: pointer;
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+    text-decoration-thickness: 3px;
+}
+
+.bio, .bbt {
+    color: white;
+}
+
+.about {
+    color: yellow;
+    font-weight: 800;
+}
+
+.work {
+    /*will update*/
+}
+
+.writings {
+    /*will update*/
+}
+
+.header-item {
+    cursor: pointer;
+}
+
+.footer {
+    color: rgb(39, 39, 39);
 }
