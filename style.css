@@ -14,8 +14,7 @@ body {
 }
 
 img {
-    width: 60%  ;
-    height: auto;
+    width: 60%;
     margin-top: 42px;
 }
 
@@ -30,7 +29,7 @@ img {
     flex-direction: column;
     position: absolute;
     margin: auto 16px;
-    gap: 30px;
+    gap: 25px;
     width: 40%;
     bottom: 5%;
 }
@@ -39,19 +38,23 @@ img {
     font-weight: 800;
     font-size: 25px;
     text-shadow: 10px;
-    text-shadow: 3px 4px 7px rgba(255, 255, 0, 0.412);
+    text-shadow: 3px 4px 7px rgba(255, 255, 0, 0.535);
 }
 
 a {
-    cursor: pointer;
     color: inherit;
     text-decoration: underline;
     text-decoration-color: aliceblue;
     text-decoration-thickness: 3px;
 }
 
-.bio, .bbt {
+.white {
     color: white;
+}
+
+.bio {
+    width: auto;
+    height: 100px;
 }
 
 .about {
@@ -59,15 +62,7 @@ a {
     font-weight: 800;
 }
 
-.work {
-    /*will update*/
-}
-
-.writings {
-    /*will update*/
-}
-
-.header-item {
+.nav {
     cursor: pointer;
 }
 
