@@ -69,3 +69,22 @@ a {
 .footer {
     color: rgb(39, 39, 39);
 }
+
+/*media queries!*/
+
+@media screen and (max-width: 800px) {
+    .bio {
+        height: fit-content;
+    }
+
+    .txt {
+        bottom: 20px; 
+        top: 17%;
+        width: 75%;
+    }
+ 
+    img {
+        width: 100%;
+        margin-top: 0;
+    }
+  }
